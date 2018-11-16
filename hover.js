@@ -27,7 +27,7 @@ function onmouseleavekombo2(){
 }
 
 
-function fadeOutEffect() {
+function    () {
     var fadeAlle = document.getElementById("alle");
     var fadeEffect = setInterval(function () {
         if (!fadeAlle.style.opacity) {
@@ -36,8 +36,8 @@ function fadeOutEffect() {
         if (fadeAlle.style.opacity > 0) {
             fadeAlle.style.opacity -= 0.1;
         } else {
+            document.getElementById("alle").remove();
             clearInterval(fadeEffect);
         }
     }, 80);
 }
-document.getElementById("alle").addEventListener('click', fadeOutEffect);
