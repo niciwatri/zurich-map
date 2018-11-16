@@ -68,9 +68,12 @@ img.kreisealle {
 	/*opacity: 0;*/
 }
 
-.alle {
+#alle {
 	width: 100vw;
 	height: 99vh;
 	display: inline-block;
-	margin-top: 102vh;
+	position: center;
+	z-index: 100000000;
+	left: 0.5%;
+	top: 1%;
 }

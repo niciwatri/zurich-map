@@ -25,3 +25,19 @@ function onmouseleavekombo2(){
     document.getElementById("kreisBus").style.opacity = "1";
 
 }
+
+
+function fadeOutEffect() {
+    var fadeAlle = document.getElementById("alle");
+    var fadeEffect = setInterval(function () {
+        if (!fadeAlle.style.opacity) {
+            fadeAlle.style.opacity = 1;
+        }
+        if (fadeAlle.style.opacity > 0) {
+            fadeAlle.style.opacity -= 0.1;
+        } else {
+            clearInterval(fadeEffect);
+        }
+    }, 80);
+}
+document.getElementById("alle").addEventListener('click', fadeOutEffect);
