@@ -44,21 +44,20 @@ img.kreisealle {
 }
 
 
-.kreis {
-	opacity: 1;
-
-}
-
-.kombo1:hover .kreis {
+#haus {
 	opacity: 0;
 }
 
-.haus {
+#infoLinkgroup {
 	opacity: 0;
 }
 
-.kombo1:hover .haus {
-	opacity: 1;
+#bus {
+	opacity: 0;
+}
+
+#infoBus {
+	opacity: 0;
 }
 
 .info {
@@ -66,18 +65,12 @@ img.kreisealle {
 	top: -80%;
 	width: 26vw;
 	height: auto;
-	opacity: 0;
-
+	/*opacity: 0;*/
 }
 
-.kombo1:hover .info {
-	opacity: 1;
-}
-
-.kombo2:hover .kreis {
-	opacity: 0;
-}
-
-.kombo2:hover .haus {
-	opacity: 1;
+.alle {
+	width: 100vw;
+	height: 99vh;
+	display: inline-block;
+	margin-top: 102vh;
 }
