@@ -1,0 +1,83 @@
+
+img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: 250ms all ease-in-out;
+}
+
+.container {
+	width: 100vw;
+	height: 99vh;
+	position: absolute;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+img.kreisealle {
+	width: 100vw;
+	height: 99vh;
+	position: absolute;
+	left: 0;
+
+}
+
+
+.kombo1 {
+	width: 6%;
+	height: 6%;
+	top: 30%;
+	left: 65%;
+	position: absolute;
+}
+
+.kombo2 {
+	width: 4%;
+	height: 4%;
+	top: 70%;
+	left: 40%;
+	position: absolute;
+}
+
+
+.kreis {
+	opacity: 1;
+
+}
+
+.kombo1:hover .kreis {
+	opacity: 0;
+}
+
+.haus {
+	opacity: 0;
+}
+
+.kombo1:hover .haus {
+	opacity: 1;
+}
+
+.info {
+	left: -590%;
+	top: -80%;
+	width: 26vw;
+	height: auto;
+	opacity: 0;
+
+}
+
+.kombo1:hover .info {
+	opacity: 1;
+}
+
+.kombo2:hover .kreis {
+	opacity: 0;
+}
+
+.kombo2:hover .haus {
+	opacity: 1;
+}
