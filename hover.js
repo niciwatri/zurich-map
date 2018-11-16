@@ -27,7 +27,7 @@ function onmouseleavekombo2(){
 }
 
 
-function    () {
+function fadeOutEffect() {
     var fadeAlle = document.getElementById("alle");
     var fadeEffect = setInterval(function () {
         if (!fadeAlle.style.opacity) {
